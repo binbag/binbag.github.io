@@ -1,0 +1,73 @@
+{
+    "packages": {
+        "binbag/apache-ant": {
+            "1.9.6": {
+                "name": "binbag/apache-ant",
+                "version": "1.9.6",
+                "version_normalized": "1.9.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.apache.org/dist/ant/binaries/apache-ant-1.9.6-bin.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "bin": [
+                    "bin/ant"
+                ],
+                "type": "library",
+                "description": "Binary distributions of Apache Ant"
+            }
+        },
+        "binbag/apigen-phar": {
+            "4.1.0": {
+                "name": "binbag/apigen-phar",
+                "version": "4.1.0",
+                "version_normalized": "4.1.0.0",
+                "dist": {
+                    "type": "phar",
+                    "url": "http://apigen.org/apigen.phar",
+                    "reference": null,
+                    "shasum": null
+                },
+                "bin": [
+                    "apigen.phar"
+                ],
+                "type": "library",
+                "description": "Binary distribution of ApiGen PHP documentation generator"
+            }
+        },
+        "binbag/francisvarga-ant-git-macros": {
+            "0.1.2": {
+                "name": "binbag/francisvarga-ant-git-macros",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/FrancisVarga/ant-git-macros/archive/v0.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "type": "library",
+                "description": "Ant macros for working with Git commands"
+            }
+        },
+        "binbag/pdepend-phar": {
+            "2.2.2": {
+                "name": "binbag/pdepend-phar",
+                "version": "2.2.2",
+                "version_normalized": "2.2.2.0",
+                "dist": {
+                    "type": "phar",
+                    "url": "http://static.pdepend.org/php/latest/pdepend.phar",
+                    "reference": null,
+                    "shasum": null
+                },
+                "bin": [
+                    "pdepend.phar"
+                ],
+                "type": "library",
+                "description": "Binary distribution of PHP Depend software analyser and metric tool"
+            }
+        }
+    }
+}

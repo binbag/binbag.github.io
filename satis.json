@@ -1,0 +1,65 @@
+{
+  "name": "BinBag—an alternative Composer repository (BETA)",
+  "description": "<img align='right' src='/img/piles-of-garbage.jpg'>Useful packages that may not be deemed suitable for inclusion in Packagist. <a href='https://github.com/binbag/binbag.github.io/blob/master/README.md'>» Read More</a>",
+  "homepage": "https://packages.binbag.xyz",
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "binbag/apache-ant",
+        "description": "Binary distributions of Apache Ant",
+        "version": "1.9.6",
+        "dist": {
+          "url": "https://www.apache.org/dist/ant/binaries/apache-ant-1.9.6-bin.zip",
+          "type": "zip"
+        },
+        "bin": [
+          "bin/ant"
+        ]
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "binbag/apigen-phar",
+        "description": "Binary distribution of ApiGen PHP documentation generator",
+        "version": "4.1.0",
+        "dist": {
+          "url": "http://apigen.org/apigen.phar",
+          "type": "phar"
+        },
+        "bin": [
+          "apigen.phar"
+        ]
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "binbag/francisvarga-ant-git-macros",
+        "description": "Ant macros for working with Git commands",
+        "version": "0.1.2",
+        "dist": {
+          "url": "https://github.com/FrancisVarga/ant-git-macros/archive/v0.1.2.zip",
+          "type": "zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "binbag/pdepend-phar",
+        "description": "Binary distribution of PHP Depend software analyser and metric tool",
+        "version": "2.2.2",
+        "dist": {
+          "url": "http://static.pdepend.org/php/latest/pdepend.phar",
+          "type": "phar"
+        },
+        "bin": [
+          "pdepend.phar"
+        ]
+      }
+    }
+  ],
+  "require-all": true
+}
