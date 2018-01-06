@@ -3,7 +3,7 @@ BinBag—an alternative Composer repository (BETA)
 
 <img align="right" src="/img/piles-of-garbage.jpg">
 
-[BinBag](https://packages.binbag.xyz) is a [Composer](https://getcomposer.org)
+[BinBag](https://binbag.github.io) is a [Composer](https://getcomposer.org)
 repository, established to host useful packages that may not be deemed
 suitable for inclusion in the default [Packagist](https://packagist.org/)
 repository.
@@ -14,7 +14,7 @@ non-PHP binaries using Composer, although its scope may expand in future.
 Usage
 -----
 
-Visit [packages.binbag.xyz](https://packages.binbag.xyz) to explore the list of
+Visit [binbag.github.io](https://binbag.github.io) to explore the list of
 hosted packages.
 
 Add the repository definition to your project's `composer.json` file:
@@ -24,7 +24,7 @@ Add the repository definition to your project's `composer.json` file:
     "repositories": [
         {
             "type": "composer",
-            "url": "https://packages.binbag.xyz"
+            "url": "https://binbag.github.io"
         }
     ]
 }
